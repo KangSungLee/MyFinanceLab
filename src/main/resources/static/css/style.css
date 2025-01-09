@@ -1,0 +1,36 @@
+/* header영역 */
+.navbar-custom {
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar-custom .nav-link {
+    color: white !important; 
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-custom .nav-link:hover {
+    color: #ff6347 !important; /* 링크 호버 색상 */
+}
+.navbar-brand {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 로그인페이지 영역 */
+.wrapper {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; 
+}
+.login-form {
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
