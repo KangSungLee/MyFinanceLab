@@ -20,6 +20,7 @@ public class LoginController {
 	@PostMapping("/login")
 	public String handleLogin(@RequestParam("userId") String userId,
 							  @RequestParam("password") String password) {
+		// 로그인전 처리시 예외처리 필요
 		if ("admin".equals(userId) && "12345".equals(password)) {
 			logger.info(userId + "로그인");
             return "/home/homePage"; 
